@@ -13,6 +13,7 @@ tutorial1-env\Scripts\activate.bat
 
 if GPIO_asm and CH32V003_reg1.asm (inc files) are on desktop ( both files should be in the same folder)
 use command 
+
 bronzebeard --hex-offset 0x08000000 Desktop/GPIO_asm.asm
 
 Use WCH_LINK_UTILITY to upload the assembled bb.out.hex file to CH32V003 chip by connceting gnd, 3.3v,DIO pins.
